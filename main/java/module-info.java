@@ -11,6 +11,7 @@ module edu.ufp.inf.aed2_lp2_2324_students {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires algs4;
 
     opens edu.ufp.inf to javafx.fxml;
     exports edu.ufp.inf.aed2;
