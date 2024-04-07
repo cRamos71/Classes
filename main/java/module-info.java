@@ -12,6 +12,7 @@ module edu.ufp.inf.aed2_lp2_2324_students {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires algs4;
+    requires jdk.jshell;
 
     opens edu.ufp.inf to javafx.fxml;
     exports edu.ufp.inf.aed2;

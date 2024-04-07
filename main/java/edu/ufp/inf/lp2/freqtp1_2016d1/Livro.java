@@ -10,6 +10,7 @@ public class Livro {
     private String titulo;
     ArrayList<String> autores = new ArrayList<>();
     private Date publicacao;
+    Utilizador user;
 
     public Livro() {
     }
@@ -47,6 +48,8 @@ public class Livro {
         return Objects.hash(titulo, publicacao);
     }
 
-
+    public boolean requisitado(){
+        return user == null;
+    }
 
 }
